@@ -13,4 +13,4 @@ ex1data2.txt - Dataset for linear regression with multiple variables\
 [+] gradientDescent.m - Function to run gradient descent\
 [+] computeCostMulti.m - Cost function for multiple variables\
 
-[] indicates files completed
+[+] indicates files completed
