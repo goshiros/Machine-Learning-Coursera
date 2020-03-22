@@ -19,6 +19,6 @@ runkMeans.m - Runs the K-means algorithm\
 [+] recoverData.m - Recovers the original data from the projection\
 [+] findClosestCentroids.m - Find closest centroids (used in K-means)\
 [+] computeCentroids.m - Compute centroid means (used in K-means)\
-[+] kMeansInitCentroids.m - Initialization for K-means centroids\
+[+] kMeansInitCentroids.m - Initialization for K-means centroids
 
 [+] indicates files completed
