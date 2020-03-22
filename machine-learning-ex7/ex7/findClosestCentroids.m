@@ -21,6 +21,19 @@ idx = zeros(size(X, 1), 1);
 % Note: You can use a for-loop over the examples to compute this.
 %
 
+% ---------------------- UNVECTORIZED ----------------------
+%distance = zeros(1, K);
+
+%for i = 1:size(X, 1)
+%  for j = 1:K
+%    D = X(i, :) - centroids(j, :);
+%    distance(j) = sum(D .^ 2);
+%  end
+%  [dummy, idx(i)] = min(distance);
+%end
+
+% ----------------------- VECTORIZED -----------------------
+
 distance = zeros(size(X, 1), K);
 
 for i = 1:K
@@ -29,7 +42,6 @@ for i = 1:K
 end
 
 [min, idx] = min(distance, [], 2);
-
 
 % =============================================================
 
