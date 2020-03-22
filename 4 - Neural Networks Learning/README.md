@@ -2,8 +2,7 @@
 
 Implementing the backpropagation algorithm for neural networks and applying it to the task of hand-written digit recognition.
 
-**Files:**
-
+**Files:**\
 ex4.m - Octave/MATLAB script that steps you through the exercise\
 ex4data1.mat - Training set of hand-written digits\
 ex4weights.mat - Neural network parameters for exercise 4\
