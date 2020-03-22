@@ -10,7 +10,6 @@ ex1data2.txt - Dataset for linear regression with multiple variables\
 [+] warmUpExercise.m - Simple example function in Octave/MATLAB\
 [+] plotData.m - Function to display the dataset\
 [+] computeCost.m - Function to compute the cost of linear regression\
-[+] gradientDescent.m - Function to run gradient descent\
-[+] computeCostMulti.m - Cost function for multiple variables\
+[+] gradientDescent.m - Function to run gradient descent
 
 [+] indicates files completed
