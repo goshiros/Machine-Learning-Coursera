@@ -1,6 +1,6 @@
 # Programming Exercise 1: Linear Regression
 
-Implementing unregularized linear regression and gradient descent and getting to see it work on data.
+Implementing unregularized linear regression and gradient descent and getting to see it working on data.
 
 **Files:**\
 ex1.m - Octave/MATLAB script that steps you through the exercise\
